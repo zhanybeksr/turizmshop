@@ -66,7 +66,7 @@ MIDDLEWARE = [
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://localhost:5173",
-    "https://твой-проект.vercel.app",  # <--- Вставь сюда чистую ссылку от Vercel
+    "https://turizmshop.vercel.app",  # Твоя ссылка от Vercel без косой черты / в конце
 ]
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOW_HEADERS = [
