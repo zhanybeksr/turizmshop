@@ -67,6 +67,7 @@ CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://localhost:5173",
+    "https://turizmshop-ehlg08zv1-zhanybeksrs-projects.vercel.app",
     "https://turizmshop.vercel.app",  # Твоя ссылка от Vercel без косой черты / в конце
 ]
 CORS_ALLOW_CREDENTIALS = True
