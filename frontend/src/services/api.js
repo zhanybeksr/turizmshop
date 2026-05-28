@@ -34,12 +34,12 @@ export const orderService = {
   deleteOrder: (id) => api.delete(`/orders/orders/${id}/`),
 };
 
-// Immediately setup request interceptor for auth token
+// Исправленный интерцептор
 api.interceptors.request.use(
   (config) => {
     const token = localStorage.getItem('token');
     if (token) {
-      // Add token to every request
+      // Просто добавляем токен в заголовок, больше ничего
       config.headers.Authorization = `Token ${token}`;
     }
     return config;
@@ -49,4 +49,4 @@ api.interceptors.request.use(
   }
 );
 
-export default api; 
+export default api;
