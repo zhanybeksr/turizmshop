@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = process.env.REACT_APP_API_URL || 'https://turizmshop-backend.onrender.com';
+const API_URL = 'https://turizmshop-backend-2y5m.onrender.com';
 
 // Create axios instance
 const api = axios.create({
